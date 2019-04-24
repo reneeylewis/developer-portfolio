@@ -1,0 +1,270 @@
+* {
+  	margin: 0;
+  	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll;
+	width: 100%;
+}
+
+body {
+	font-family: Perpetua, Georgia, Baskerville, Superclarendon, Verdana;
+	color: #fff;
+}
+
+nav {
+	background-image: url(../images/nav_sunset2.2x.jpg);
+/*	border-bottom: 1px solid #fff; */
+	padding: 17px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	white-space: nowrap;
+}
+
+header {
+	background-image: url(../images/sunset2.2x.jpg);
+	padding-top: 55px;
+	padding-bottom: 55px;
+	height: 680px;
+	text-align: center;
+	position: relative;
+}
+
+header p {
+	margin-top: 75px;
+	margin-bottom: 60px;
+}
+
+nav, header {
+	background-position: center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	width: 100%;
+  	margin: 0 auto;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+nav a,
+header a {
+	color: #fff;
+	margin-right: 30px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+nav .icon {
+  display: none;
+}
+
+main {
+	background-color: grey;
+	position: relative;
+	font-size: 1.5rem;
+}
+
+main p {
+	padding: 10px 0;
+}
+
+section {
+	min-height: 750px;
+	width: 90%;
+	margin: auto;
+	padding: 80px 50px;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+h1 {
+	font-family: "Bradley Hand", "Apple Chancery", Serif;
+	font-size: 7.5rem;
+	padding-top: 20px;
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 3.1rem;
+}
+
+h3 {
+	font-size: 2rem;
+	padding-bottom: 30px;
+}
+
+footer {
+	background-color: #000;
+	padding: 17px;
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.headerlink {
+	display: inline-block;
+}
+
+.social {
+	border: 1px solid #fff;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.social:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+#contact a {
+	text-decoration: none;
+	color: maroon;
+}
+#contact a:hover {
+	text-decoration: underline;
+}
+
+#navReneeLink{
+	margin-left: 35px;
+	font-size: 1.4rem;
+}
+
+#about {
+	width: 75%;
+}
+
+#about img {
+	width: 11.8rem;
+	height: 13rem;
+	padding-right: 15px;
+}
+
+#portfolio img {
+	width: 30%;
+	height: auto;
+	display: block;
+	float: left;
+	margin: 15px 15px 15px 0;
+}
+
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+
+
+/* ======================== Responsive Design  =============================== */
+
+@media only screen and (max-width: 1200px) {
+  #portfolio img {
+  	width: 46%;
+  	height: 46%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #about {
+	width: 85%;
+  }
+}
+
+@media only screen and (max-width: 950px), (orientation: landsape) {
+  section, #about {
+	width: 100%;
+  }
+  #portfolio img {
+  	width: 46%;
+  	height: 46%;
+  }
+}
+
+@media only screen and (max-width: 900px), (orientation: landsape) {
+  #portfolio img {
+  	width: 75%;
+  	height: 46%;
+  }
+}
+
+@media only screen and (max-width: 795px), (orientation: portrait) {
+  nav {
+	background-image: none;
+	background: #000;
+	padding: 0;
+	border-bottom: 1px solid #fff;
+	font-size: 1rem;
+  }
+  nav a {
+  	display: block;
+  	margin-right: 0;
+  	padding: 3px 0 3px 12px;
+  	line-height: 36px;
+  }
+  #navReneeLink  {
+  	border-bottom: 1px solid grey;
+	margin-left: 0;
+	padding: 8px 0 10px 12px;
+  }
+
+  #navlinks {
+    float: none;
+  	display: none;
+  }
+  #navlinks:hover {
+	background: #efa476;
+  }
+  header {
+  	font-size: 1rem;
+  }
+  section {
+  	padding: 80px 20px;
+  }
+  h1 {
+	font-size: 3.4rem;
+	padding-top: 35px;
+	margin-bottom: 37px;
+  }
+  h2 {
+  	font-size: 1.3rem;
+  }
+  header p {
+	margin-top: 53px;
+	margin-bottom: 80px;
+  }
+  h3 {
+	font-size: 1.6rem;
+	padding-bottom: 30px;
+  }
+  main {
+	font-size: 1.3rem;
+  }
+  .headerlink {
+	display: block;
+	margin: 45px;
+  }
+  .social {
+  	padding: 10px;
+  }
+  #portfolio img {
+  	width: 95%;
+  	height: 46%;
+  }
+  #about img {
+	width: 7.5rem;
+	height: 8rem;
+  }
+  #contact {
+  	font-size: 1.2rem;
+  }
+}
+

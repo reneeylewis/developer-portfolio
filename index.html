@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Renée Y. Lewis: Front-end & Python Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Renée Y. Lewis: Front-end & Python Developer">
+    <meta name="Keywords" content="Renée Y. Lewis, Renée Lewis, Web design, Web development, Front end, Front-end, Front-end development, HTML, HTML5, CSS, CSS3, Javascript, JQuery, Cascading Style Sheets, Python, Python Developer, Web Scraping, Web Scraper, Django, Responsive design, Data Visualization, D3">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="myTopnav">
+        <a href="index.html" id="navReneeLink" alt="Renée's Developer Portfolio">Renée Y. Lewis</a>
+        <a href="#about" id="navlinks">ABOUT</a>
+        <a href="#portfolio"  id="navlinks">PORTFOLIO</a>
+        <a href="#contact" id="navlinks">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Renée Y. Lewis</h1>
+        <h2>Front-end and Python Developer</h2>
+        <p><a href="mailto:RENEEYLEWIS@YAHOO.COM" class="social">RENEEYLEWIS@YAHOO.COM</a></p>
+        <ul>
+            <li class="headerlink"><a href="https://www.linkedin.com/in/reneeylewis" target="_blank" class="social"><img src="images/socialmedia/linkedin.png" title="Linkedin" width="20px" height="20px" />LINKEDIN</a></li>
+            <li class="headerlink"><a href="https://www.github.com/reneeylewis" target="_blank" class="social"><img src="images/socialmedia/GitHub.png" title="Github" width="20px" height="20px" />GITHUB</a></li>
+            <li class="headerlink"><a href="https://www.instagram.com/reneeylewis" target="_blank" class="social"><img src="images/socialmedia/instagram.png" title="Instagram" width="20px" height="20px" />INSTAGRAM</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h3>ABOUT ME</h3>
+            <img src="images/reneeylewiscrop.jpg" title="Renée Y. Lewis" class="floatLeft" />
+            
+            <p>I am a front-end developer with specialties in HTML, CSS, Javascript/JQuery, and Python. My professional path has spanned both the scientific and tech industries, which have allowed me to develop and hone my analytical and creative skills.
+            </p>
+
+            <p>As a developer, I enjoy using my obsessive attention to detail and my unequivocal passion to find creative solutions to solve problems. I’ve always sought to challenge myself, both professionally and personally and I am dedicated to building excellent software that are specific to the business needs of my clients.
+            </p>
+
+            <p>When I'm not writing code, I enjoy baking, drawing, running marathons, spending time with family and friends, and publishing novels.
+            </p>
+        </section>
+        
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h3>PORTFOLIO</h3>
+            <div>
+                <a href="http://decadentdessertsbyrenee.com/" target="_blank"><img src="images/decadentdesserts.jpg" title="Decadent Desserts by Renée" /></a>
+                <a href="http://evesdestiny.com/" target="_blank"><img src="images/evesdestiny.png" title="Eve's Destiny - Novel" /></a>
+                <a href="http://www.reneeylewis.com/" target="_blank"><img src="images/reneeylewis.png" title="Renée Y. Lewis: Author & Artist"></a>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <h3>CONTACT</h3><br />
+            Phone: 347-610-6110<br />
+            Email: <a href="mailto:reneeylewis@yahoo.com">reneeylewis@yahoo.com</a><br />
+            LinkedIn: <a href="https://www.linkedin.com/in/reneeylewis" target="_blank">www.linkedin.com/in/reneeylewis</a><br />
+            Facebook: <a href="https://www.facebook.com/reneeylewis" target="_blank">www.facebook.com/reneeylewis</a><br />
+            Instagram: <a href="https://www.instagram.com/reneeylewis" target="_blank">www.instagram.com/reneeylewis</a>
+        </section>
+    </main>
+
+    <!-- Toggle between adding and removing the "responsive" class to nav when the user clicks on the icon -->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav";
+      }
+    }
+    </script>
+
+    <!-- Footer -->
+    <footer id="footer">&copy; 2019 &middot; Renée Y. Lewis</footer>
+</body>
+</html>	
